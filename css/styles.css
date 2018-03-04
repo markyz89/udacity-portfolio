@@ -8,16 +8,23 @@ html, body {
 	margin: auto;
 }
 
-h1 {
-	font-size: 32px;
-	font-family: open sans;
-	font-weight: 100;
+/*Header*/
+
+h1, h2, h4 {
 	text-transform: uppercase;
+	font-family: 'open sans';
+}
+
+h1 {
+	font-size: 2.2em;
+	font-weight: 400;
+	
 }
 
 h2 {
-	font-size: 18px;
-	font-family: 'open sans';
+	font-size: 1.2em;
+	font-weight: 800;
+	float: right;
 }
 
 .logo {
@@ -33,10 +40,13 @@ h2 {
 	margin: 0px;
 }
 
-/*hr {
-	border-width: 4px;
+hr {
+	border-top: 4px solid #7d97ad;
+	margin: 20px 0px;
 }
-*/
+
+/*Hero Image*/
+
 .hero {
 	background-image: url('../images/header-background.jpg');
 	width: 100%;
@@ -54,3 +64,45 @@ h2 {
 	width: 60%;
 	margin: 0 35%;
 }
+
+/*Portfolio Items*/
+
+h3 {
+	font-size: 2em;
+	font-family: 'open sans';
+	font-weight: 200;
+	color: #7d97ad;
+
+}
+
+.portfolio-items {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.item {
+	width: 30%;
+	min-width: 250px;
+}
+
+.item img {
+	width: 100%;
+	float: left;
+}
+
+#item1, #item2 {
+	margin-right: 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.portfolio-items h4 {
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: 400;
+	color: #2d3c49;
+}
+
