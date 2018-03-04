@@ -1,0 +1,56 @@
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+h1 {
+	font-size: 32px;
+	font-family: open sans;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: 'open sans';
+}
+
+.logo {
+	width: 75px;
+}
+
+.name-header {
+	float: right;
+}
+
+.name-header h1, h2 {
+	padding: 0px;
+	margin: 0px;
+}
+
+/*hr {
+	border-width: 4px;
+}
+*/
+.hero {
+	background-image: url('../images/header-background.jpg');
+	width: 100%;
+}
+
+.hero img {
+	padding: 2%;
+}
+
+.goals {
+	width: 45%;
+}
+
+.name-img {
+	width: 60%;
+	margin: 0 35%;
+}
