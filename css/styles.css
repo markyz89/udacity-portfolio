@@ -106,3 +106,59 @@ a {
 	color: #2d3c49;
 }
 
+/*About Me*/
+
+.about-me {
+	width: 100%;
+	height: auto;
+	background-color: #7d97ad;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-me article {
+	width: 65%;
+	min-width: 580px;
+	margin-right: 5%;
+}
+.about-me .image-container {
+	width: 30%;
+	vertical-align: baseline;
+}
+
+.image-container img {
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+	padding-top: 2%;
+	vertical-align: baseline;
+}
+
+
+.about-me p {
+	color: #fff;
+	font-size: 1.4em;
+	margin-left: 5%;
+	width: 80%;
+	word-wrap: break-word;
+}
+
+@media screen and (max-width: 1148px) {
+	.about-me article {
+		min-width: 320px;
+		width: 80%;
+		margin: auto;
+	}
+
+	.image-container {
+		width: 80%;
+		margin: auto; 
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	.about-me article p {
+		font-size: 1em;
+	}
+}
